@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "matchName": "Chennai Warmup Match",
+    "matchDate": "2025-08-01",
+    "matchTime": "18:00",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "location": "Chennai Arena",
+    "status": "available",
+    "instructorId": 1,
+    "instructorName": "Coach Ram",
+    "instructorNumber": "9999999991",
+    "registeredUsersCount": 5,
+    "registeredUsers": [
+      {
+        "userId": 6,
+        "status": "attending"
+      },
+      {
+        "userId": 7,
+        "status": "declined"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "matchName": "33 Practice",
+    "matchDate": "2025-07-04",
+    "matchTime": "18:00",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "location": "Hyd Sports BB Acadey Center",
+    "status": "completed",
+    "instructorId": 1,
+    "instructorName": "Coach Ram",
+    "instructorNumber": "9999999991",
+    "registeredUsersCount": 10,
+    "registeredUsers": [
+      {
+        "userId": 2,
+        "status": "attending"
+      },
+      {
+        "userId": 4,
+        "status": "attending"
+      },
+      {
+        "userId": 5,
+        "status": "attending"
+      },
+      {
+        "userId": 8,
+        "status": "attending"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "matchName": "bb Practice",
+    "matchDate": "2025-08-03",
+    "matchTime": "17:00",
+    "startTime": "17:00",
+    "endTime": "18:00",
+    "location": "Hyd Sports Center",
+    "status": "available",
+    "instructorId": 2,
+    "instructorName": "Coach Priya",
+    "instructorNumber": "9999999992",
+    "registeredUsersCount": 8,
+    "registeredUsers": [
+      {
+        "userId": 6,
+        "status": "attending"
+      },
+      {
+        "userId": 7,
+        "status": "declined"
+      },
+      {
+        "userId": 8,
+        "status": "attending"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "matchName": "Local buddies Practice",
+    "matchDate": "2025-08-04",
+    "matchTime": "18:00",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "location": "Hyd Sports BB Acadey Center",
+    "status": "available",
+    "instructorId": 1,
+    "instructorName": "Coach Ram",
+    "instructorNumber": "9999999991",
+    "registeredUsersCount": 10,
+    "registeredUsers": [
+      {
+        "userId": 2,
+        "status": "attending"
+      },
+      {
+        "userId": 4,
+        "status": "attending"
+      },
+      {
+        "userId": 5,
+        "status": "attending"
+      },
+      {
+        "userId": 8,
+        "status": "attending"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "matchName": "1 buddies Practice",
+    "matchDate": "2025-07-31",
+    "matchTime": "18:00",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "location": "Hyd Sports BB 111 Acadey Center",
+    "status": "available",
+    "instructorId": 1,
+    "instructorName": "Coach Ram",
+    "instructorNumber": "9999999991",
+    "registeredUsersCount": 10,
+    "registeredUsers": [
+      {
+        "userId": 2,
+        "status": "attending"
+      },
+      {
+        "userId": 4,
+        "status": "attending"
+      },
+      {
+        "userId": 5,
+        "status": "attending"
+      },
+      {
+        "userId": 8,
+        "status": "attending"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "matchName": "Local 22 Practice",
+    "matchDate": "2025-07-05",
+    "matchTime": "18:00",
+    "startTime": "18:00",
+    "endTime": "19:00",
+    "location": "Hyd Sports BB Acadey Center",
+    "status": "completed",
+    "instructorId": 1,
+    "instructorName": "Coach Ram",
+    "instructorNumber": "9999999991",
+    "registeredUsersCount": 10,
+    "registeredUsers": [
+      {
+        "userId": 2,
+        "status": "attending"
+      },
+      {
+        "userId": 4,
+        "status": "attending"
+      },
+      {
+        "userId": 5,
+        "status": "attending"
+      },
+      {
+        "userId": 8,
+        "status": "attending"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "matchName": "Delhi Practice",
+    "matchDate": "2025-08-02",
+    "matchTime": "17:00",
+    "startTime": "17:00",
+    "endTime": "18:00",
+    "location": "Delhi Sports Center",
+    "status": "available",
+    "instructorId": 1,
+    "instructorName": "Coach Ram",
+    "instructorNumber": "9999999991",
+    "registeredUsersCount": 0,
+    "registeredUsers": []
+  }
+]

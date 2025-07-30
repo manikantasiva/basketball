@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "name": "Coach Ram",
+    "type": "instructor",
+    "email": "ram@gmail.com",
+    "mobile": "9999999991",
+    "password": "ram123",
+    "location": "Chennai"
+  },
+  {
+    "id": 2,
+    "name": "Coach Priya",
+    "type": "instructor",
+    "email": "priya@academy.com",
+    "mobile": "9999999992",
+    "password": "priya123",
+    "location": "Delhi"
+  },
+  {
+    "id": 3,
+    "name": "Coach Alex",
+    "type": "instructor",
+    "email": "alex@academy.com",
+    "mobile": "9999999993",
+    "password": "alex123",
+    "location": "Bangalore"
+  },
+  {
+    "id": 4,
+    "name": "Coach Riya",
+    "type": "instructor",
+    "email": "riya@academy.com",
+    "mobile": "9999999994",
+    "password": "riya123",
+    "location": "Kolkata"
+  },
+  {
+    "id": 5,
+    "name": "Coach Karan",
+    "type": "instructor",
+    "email": "karan@academy.com",
+    "mobile": "9999999995",
+    "password": "karan123",
+    "location": "Hyderabad"
+  },
+  {
+    "id": 6,
+    "name": "Student Arjun",
+    "type": "student",
+    "email": "arjun@gmail.com",
+    "mobile": "8888888881",
+    "password": "arjun123",
+    "location": "Chennai"
+  },
+  {
+    "id": 7,
+    "name": "Student Maya",
+    "type": "student",
+    "email": "maya@gmail.com",
+    "mobile": "8888888882",
+    "password": "maya123",
+    "location": "Delhi"
+  },
+  {
+    "id": 8,
+    "name": "Student Rohan",
+    "type": "student",
+    "email": "rohan@gmail.com",
+    "mobile": "8888888883",
+    "password": "rohan123",
+    "location": "Mumbai"
+  },
+  {
+    "id": 9,
+    "name": "Student Isha",
+    "type": "student",
+    "email": "isha@gmail.com",
+    "mobile": "8888888884",
+    "password": "isha123",
+    "location": "Hyderabad"
+  },
+  {
+    "id": 10,
+    "name": "Student Ali",
+    "type": "student",
+    "email": "ali@gmail.com",
+    "mobile": "8888888885",
+    "password": "ali123",
+    "location": "Chennai"
+  }
+]
