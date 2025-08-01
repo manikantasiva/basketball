@@ -1,4 +1,3 @@
-import 'package:bb_sports/routes/app_routes.dart';
 import 'package:bb_sports/widgets/compond_shimmer.dart';
 import 'package:bb_sports/widgets/custom_rich_text.dart';
 import 'package:bb_sports/widgets/instructor_profile_card.dart';
@@ -45,9 +44,9 @@ class InstructorHomeScreen extends StatelessWidget {
                       firstColor: Colors.white,
                       secondColor: Colors.orange,
                       thirdColor: Colors.white70,
-                      firstFontSize: 30,
-                      secondFontSize: 32,
-                      thirdFontSize: 20,
+                      firstFontSize: 26,
+                      secondFontSize: 30,
+                      thirdFontSize: 16,
                       textAlign: TextAlign.center,
                     ),
                     GestureDetector(

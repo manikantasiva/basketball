@@ -6,19 +6,19 @@ import 'package:flutter/material.dart';
 class GradientButton extends StatelessWidget {
   final String text;
   final VoidCallback onPressed;
-  final bool isLoading; // 👈 Add this
+  final bool isLoading; 
 
   const GradientButton({
     Key? key,
     required this.text,
     required this.onPressed,
-    this.isLoading = false, // 👈 Default to false
+    this.isLoading = false, 
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: isLoading ? null : onPressed, // Disable tap when loading
+      onTap: isLoading ? null : onPressed, 
       child: Container(
         padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
         decoration: BoxDecoration(

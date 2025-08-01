@@ -1,5 +1,4 @@
 // ignore_for_file: deprecated_member_use
-
 import 'dart:convert';
 import 'package:bb_sports/routes/app_routes.dart';
 import 'package:bb_sports/utils/color_constants.dart';
@@ -73,7 +72,6 @@ class AuthController extends GetxController with LoggerMixin {
 
   void logoutAction() async {
     await SharedPrefsHelper.clearUser();
-
     Get.offAllNamed(AppRoutes.login);
   }
 }

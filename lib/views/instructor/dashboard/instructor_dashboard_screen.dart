@@ -12,47 +12,60 @@ class InstructorDashboardScreen extends StatelessWidget {
     final controller = Get.put(InstructorDashboadController());
 
     return Scaffold(
-      backgroundColor: const Color(0xFF0B1D39), // Navy Blue
-      appBar: AppBar(
-        backgroundColor: const Color(0xFF0B1D39),
-        elevation: 0,
-        title: CustomRichText(
-          firstText: "Instructor ",
-          secondText: "Dashboard",
-          firstColor: Colors.white,
-          secondColor: Colors.orange,
-          firstFontSize: 20,
-          secondFontSize: 22,
-          textAlign: TextAlign.left,
-        ),
+      backgroundColor: const Color(0xFF0B1D39),
 
-        actions: [
-          Obx(
-            () => DropdownButton<String>(
-              dropdownColor: Colors.blueGrey[700],
-              value: controller.selectedRange.value,
-              underline: const SizedBox(),
-              style: const TextStyle(color: Colors.white),
-              items: const [
-                DropdownMenuItem(
-                  value: 'last7Days',
-                  child: Text("Last 7 Days"),
-                ),
-                DropdownMenuItem(
-                  value: 'last30Days',
-                  child: Text("Last 30 Days"),
-                ),
-              ],
-              onChanged: (val) => controller.selectedRange.value = val!,
-            ),
-          ),
-        ],
-      ),
       body: Obx(
         () => Padding(
           padding: const EdgeInsets.all(16),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
+              SizedBox(height: 30),
+              CustomRichText(
+                firstText: "Instructor ",
+                secondText: "Dashboard",
+                firstColor: Colors.white,
+                secondColor: Colors.orange,
+                firstFontSize: 20,
+                secondFontSize: 22,
+                textAlign: TextAlign.left,
+              ),
+              SizedBox(height: 10),
+              Obx(
+                () => Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 8),
+                      decoration: BoxDecoration(
+                        border: Border.all(color: Colors.white),
+                        borderRadius: BorderRadius.circular(5),
+                      ),
+                      child: DropdownButtonHideUnderline(
+                        child: DropdownButton<String>(
+                          dropdownColor: Colors.blueGrey[700],
+                          value: controller.selectedRange.value,
+                          style: const TextStyle(color: Colors.white),
+                          iconEnabledColor: Colors.white,
+                          items: const [
+                            DropdownMenuItem(
+                              value: 'last7Days',
+                              child: Text("Last 7 Days"),
+                            ),
+                            DropdownMenuItem(
+                              value: 'last30Days',
+                              child: Text("Last 30 Days"),
+                            ),
+                          ],
+                          onChanged:
+                              (val) => controller.selectedRange.value = val!,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              SizedBox(height: 20),
               _buildMetricCard("Matches", controller.matchData, isMatch: true),
               const SizedBox(height: 20),
               _buildMetricCard(

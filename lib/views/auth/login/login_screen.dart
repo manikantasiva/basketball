@@ -1,4 +1,3 @@
-// lib/views/auth/login_screen.dart
 import 'package:bb_sports/controllers/auth_controller.dart';
 import 'package:bb_sports/utils/color_constants.dart';
 import 'package:bb_sports/widgets/custom_rich_text.dart';
@@ -9,7 +8,6 @@ import 'package:get/get.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     final controller = Get.find<AuthController>();
@@ -96,13 +94,12 @@ class LoginScreen extends StatelessWidget {
                               return null;
                             },
                           ),
-
                           const SizedBox(height: 30),
                           GradientButton(
                             onPressed: () => controller.loginAction(),
                             text: 'Login',
                           ),
-                          const Spacer(), // Push content to top if extra space
+                          const Spacer(),
                         ],
                       ),
                     ),

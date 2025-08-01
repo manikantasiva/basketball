@@ -1,4 +1,3 @@
-// lib/routes/app_routes.dart
 import 'package:bb_sports/views/auth/login/login_screen.dart';
 import 'package:bb_sports/views/instructor/home/instructor_home_screen.dart';
 import 'package:bb_sports/views/instructor/main/instructor_main_screen.dart';

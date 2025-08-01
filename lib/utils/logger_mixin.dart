@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_print
+
 mixin LoggerMixin {
   void logger(String msg){
     var timnestamp = DateTime.now();

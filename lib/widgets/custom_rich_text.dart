@@ -20,7 +20,7 @@ class CustomRichText extends StatelessWidget {
   final TextAlign textAlign;
 
   const CustomRichText({
-    Key? key,
+    super.key,
     required this.firstText,
     required this.secondText,
     this.thirdText,
@@ -38,14 +38,15 @@ class CustomRichText extends StatelessWidget {
     this.thirdFontWeight,
 
     this.textAlign = TextAlign.start,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: textAlign == TextAlign.center
-          ? CrossAxisAlignment.center
-          : CrossAxisAlignment.start,
+      crossAxisAlignment:
+          textAlign == TextAlign.center
+              ? CrossAxisAlignment.center
+              : CrossAxisAlignment.start,
       children: [
         RichText(
           textAlign: textAlign,

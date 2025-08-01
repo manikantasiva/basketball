@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 import 'package:bb_sports/utils/color_constants.dart';
 
@@ -73,55 +75,3 @@ class _CustomTextFieldState extends State<CustomTextField> {
     );
   }
 }
-
-
-// class CustomTextField extends StatelessWidget {
-//   final TextEditingController controller;
-//   final String label;
-//   final IconData icon;
-//   final bool isPassword;
-//   final String? Function(String?)? validator;
-//   final TextInputType? keyboardType;
-//   final Widget? suffixIcon;
-//   final bool readOnly;
-//   final VoidCallback? onTap;
-
-//   const CustomTextField({
-//     super.key,
-//     required this.controller,
-//     required this.label,
-//     required this.icon,
-//     this.isPassword = false,
-//     this.validator,
-//     this.keyboardType,
-//     this.suffixIcon,
-//     this.readOnly = false,
-//     this.onTap,
-//   });
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return TextFormField(
-//       controller: controller,
-//       obscureText: isPassword,
-//       keyboardType: keyboardType,
-//       readOnly: readOnly,
-//       onTap: onTap,
-//       decoration: InputDecoration(
-//         labelText: label,
-//         prefixIcon: Icon(icon, color: ColorConstants.primaryOrange),
-//         suffixIcon: suffixIcon,
-//         border: OutlineInputBorder(borderRadius: BorderRadius.circular(10)),
-//         focusedBorder: OutlineInputBorder(
-//           borderRadius: BorderRadius.circular(10),
-//           borderSide: BorderSide(
-//             color: ColorConstants.primaryOrange.withOpacity(0.8),
-//           ),
-//         ),
-//       ),
-//       validator: validator,
-//     );
-//   }
-// }
-
-

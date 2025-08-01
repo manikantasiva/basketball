@@ -19,7 +19,6 @@ class _SplashScreenState extends State<SplashScreen>
   @override
   void initState() {
     super.initState();
-
     _controller = AnimationController(
       duration: const Duration(milliseconds: 1200),
       vsync: this,
@@ -80,7 +79,6 @@ class _SplashScreenState extends State<SplashScreen>
               ),
               const SizedBox(height: 40),
               const Text(
-                // 🏀
                 'Basketball Academy',
                 style: TextStyle(
                   fontSize: 26,
@@ -89,7 +87,6 @@ class _SplashScreenState extends State<SplashScreen>
                 ),
               ),
               const SizedBox(height: 20),
-
               const Text(
                 'Unlock the pro within ',
                 style: TextStyle(

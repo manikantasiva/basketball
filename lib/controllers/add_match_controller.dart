@@ -60,10 +60,7 @@ class AddMatchController extends GetxController {
       "instructorId": userId,
       "registeredUsers": [],
     };
-    print("payload>>>> $newMatch");
     matches.add(newMatch);
-    print('✅ Match saved at: ${localJsonFile.path}');
-
     await localJsonFile.writeAsString(json.encode(matches));
 
     clearFields();

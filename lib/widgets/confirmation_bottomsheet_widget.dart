@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:bb_sports/utils/color_constants.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -15,7 +17,7 @@ class ConfirmationCommonBottomSheet extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DraggableScrollableSheet(
-      initialChildSize: 0.40,
+      initialChildSize: 0.48,
       minChildSize: 0.3,
       maxChildSize: 0.95,
       expand: false,

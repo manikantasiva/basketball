@@ -87,7 +87,6 @@ class InstructorProfileScreen extends StatelessWidget {
                       const SizedBox(height: 20),
                       InstructorProfileCard(instructor: instructor),
                       const SizedBox(height: 24),
-                      // Add more widgets above logout if needed
                     ],
                   ),
                 ),
@@ -98,7 +97,7 @@ class InstructorProfileScreen extends StatelessWidget {
                   text: "Logout",
                   onPressed: () async {
                     showModalBottomSheet(
-                      context: context,
+                      context: Get.context!,
                       isScrollControlled: true,
                       backgroundColor: Colors.transparent,
                       builder:

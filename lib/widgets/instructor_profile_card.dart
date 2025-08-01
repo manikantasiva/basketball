@@ -1,4 +1,3 @@
-// lib/widgets/instructor_profile_card.dart
 
 import 'package:flutter/material.dart';
 import 'package:bb_sports/utils/color_constants.dart';

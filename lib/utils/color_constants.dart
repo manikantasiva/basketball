@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class ColorConstants {
   static Color primaryColor = Color(0xff166a5a);
-  static Color secondaryDarkColor = Color(0xff169060);
+  static Color secondaryDarkColor = Color.fromARGB(255, 19, 197, 126);
   static Color secondaryBlue = Color(0xff192b51);
   static Color cream = const Color.fromARGB(253, 255, 221, 173);
   static Color white = Color(0xffffffff);

@@ -1,11 +1,10 @@
-// lib/utils/shared_prefs_helper.dart
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPrefsHelper {
   static Future<void> saveUser({
     required int id,
     required String name,
-    required String type, // 'student' or 'instructor'
+    required String type, 
   }) async {
     final prefs = await SharedPreferences.getInstance();
     await prefs.setInt('userID', id);

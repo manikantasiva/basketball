@@ -16,7 +16,7 @@ class StudentMatchesScreen extends StatelessWidget {
     return DefaultTabController(
       length: 2,
       child: Scaffold(
-        backgroundColor: ColorConstants.grey111,
+        backgroundColor: ColorConstants.white,
         appBar: AppBar(
           backgroundColor: ColorConstants.grey111,
           elevation: 0,
@@ -27,7 +27,7 @@ class StudentMatchesScreen extends StatelessWidget {
               color: Colors.black,
             ),
             onPressed: () {
-              Get.back(); // GetX back navigation
+              Get.back();
             },
           ),
           title: CustomRichText(

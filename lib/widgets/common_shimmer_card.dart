@@ -18,8 +18,8 @@ class CommonShimmerCard extends StatelessWidget {
     return Padding(
       padding: EdgeInsets.symmetric(horizontal: margin),
       child: Shimmer.fromColors(
-        baseColor: Colors.transparent.withOpacity(0.3),
-        highlightColor: Colors.transparent.withOpacity(0.3),
+        baseColor: Colors.transparent.withOpacity(0.09),
+        highlightColor: Colors.transparent.withOpacity(0.09),
         child: Container(
           width: double.infinity,
           height: height,
