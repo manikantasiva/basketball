@@ -45,7 +45,6 @@ class InstructorMatchesScreen extends StatelessWidget {
                       secondFontSize: 20,
                       textAlign: TextAlign.center,
                     ),
-
                     GestureDetector(
                       onTap: () {
                         controller.refreshActon();
